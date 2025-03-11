@@ -1,4 +1,5 @@
 // Author: Alexander Schwarz
+// Email: schwaa96@zedat.fu-berlin.de
 // Description: Simulation software for my master thesis
 // 		Registers itself via /proc/planned_processes and performs some read/write operations on an array
 //		A (legacy) matrix variant exists but was not used for conducting final experiments
