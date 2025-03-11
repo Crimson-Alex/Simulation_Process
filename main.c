@@ -81,10 +81,8 @@ int main(int argc, char **argv)
 
 		// Writing data
 		printf("Writing data for for some time\n");
-		//clock_t start = clock();
 		int iterations = 0;
 		#pragma omp parallel num_threads(6)
-		//while((((double)(clock() - start)) / CLOCKS_PER_SEC) < 60.0*6.0)
 		while(iterations < 512*2)
 		{
 			for(int i = 0; i < size; i++)
@@ -116,10 +114,8 @@ int main(int argc, char **argv)
 
 		// Writing data
 		printf("Writing data for for some time\n");
-		//clock_t start = clock();
 		int iterations = 0;
 		#pragma omp parallel num_threads(6)
-		//while((((double)(clock() - start)) / CLOCKS_PER_SEC) < 60.0*6.0)
 		while(iterations < 512)
 		{
 			for(int i = 0; i < size; i++)
@@ -145,10 +141,8 @@ int main(int argc, char **argv)
 
 		// Writing data
 		printf("Writing data for for some time\n");
-		//clock_t start = clock();
 		int iterations = 0;
 		#pragma omp parallel num_threads(6)
-		//while((((double)(clock() - start)) / CLOCKS_PER_SEC) < 60.0*6.0)
 		while(iterations < 512)
 		{
 			for(int i = 0; i < size; i++)
@@ -174,10 +168,8 @@ int main(int argc, char **argv)
 
 		// Writing data
 		printf("Writing data for for some time\n");
-		//clock_t start = clock();
 		int iterations = 0;
 		#pragma omp parallel num_threads(6)
-		//while((((double)(clock() - start)) / CLOCKS_PER_SEC) < 60.0*6.0)
 		while(iterations < 512)
 		{
 			for(int i = 0; i < size; i+=128)
@@ -203,10 +195,8 @@ int main(int argc, char **argv)
 
 		// Writing data
 		printf("Writing data for for some time\n");
-		//clock_t start = clock();
 		int iterations = 0;
 		#pragma omp parallel num_threads(6)
-		//while((((double)(clock() - start)) / CLOCKS_PER_SEC) < 60.0*6.0)
 		while(iterations < 6)
 		{
 			for(int i = 0; i < size; i++)
